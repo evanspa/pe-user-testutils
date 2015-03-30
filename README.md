@@ -18,5 +18,5 @@ pe-user-testutils is available from Clojars.  Add the following dependency to yo
 `project.clj` file:
 
 ```
-[pe-user-testutils "0.0.1"]
+[pe-user-testutils "0.0.2"]
 ```
