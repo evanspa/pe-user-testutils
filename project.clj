@@ -29,4 +29,6 @@
                                   [org.clojure/tools.nrepl "0.2.7"]
                                   [pe-datomic-testutils "0.0.2"]]
                    :resource-paths ["test-resources"]}
-             :test {:resource-paths ["test-resources"]}})
+             :test {:resource-paths ["test-resources"]}}
+  :repositories [["releases" {:url "https://clojars.org/repo"
+                              :creds :gpg}]])
