@@ -5,7 +5,7 @@ readonly NEXT_TAG=$1
 lein release :patch
 git checkout tags/${NEXT_TAG}
 lein doc
-git checkout -b gh-pages
+git checkout gh-pages
 mv -f doc/* .
 git add *.html
 git add css
