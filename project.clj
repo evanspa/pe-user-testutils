@@ -1,4 +1,4 @@
-(defproject pe-user-testutils "0.0.2"
+(defproject pe-user-testutils "0.0.3-SNAPSHOT"
   :description "A Clojure library containing a set of helper functions to aid in unit testing code that depends on the functionality of the pe-user-* libraries."
   :url "https://github.com/evanspa/pe-user-testutils"
   :license {:name "MIT"
@@ -19,7 +19,7 @@
                  [com.cemerick/friend "0.2.1"]]
   :resource-paths ["resources"]
   :codox {:exclude [user]
-          :src-dir-uri "https://github.com/evanspa/pe-user-testutils/blob/0.0.2/"
+          :src-dir-uri "https://github.com/evanspa/pe-user-testutils/blob/0.0.3/"
           :src-linenum-anchor-prefix "L"}
   :profiles {:dev {:source-paths ["dev"]
                    :plugins [[cider/cider-nrepl "0.9.0-SNAPSHOT"]]
