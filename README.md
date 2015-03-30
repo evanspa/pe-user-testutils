@@ -5,6 +5,9 @@
 A Clojure library containing a set of helper functions to aid in unit testing
 code that depends on the functionality of the pe-user-* libraries.
 
++ **[pe-user-core](https://github.com/evanspa/pe-user-core)**: A Clojure library
+  encapsulating an abstraction modeling a user and leveraging Datomic.
+
 ## Documentation
 
 * [API Docs](http://evanspa.github.com/pe-user-testutils)
