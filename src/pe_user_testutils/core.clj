@@ -7,7 +7,7 @@
             [clj-time.core :as t]))
 
 (defn save-new-authtoken
-  [conn u-entid expiration-date]
+  [conn user-partition u-entid expiration-date]
   (let [[token txnmap] (core/create-and-save-auth-token-txnmap user-partition
                                                                u-entid
                                                                expiration-date)
@@ -15,5 +15,5 @@
     (d/resolve-tempid (d/db conn) (:tempids tx) (:db/id txnmap))))
 
 (defn save-new-user
-  [conn user]
+  [conn user-partition user]
   (ducore/save-new-entity conn (core/save-new-user-txnmap user-partition user)))
