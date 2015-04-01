@@ -44,7 +44,7 @@ development of Clojure and Java based applications.
 + **[pe-user-core](https://github.com/evanspa/pe-user-core)**: provides
   a set of functions for modeling a generic user, leveraging Datomic as a
   backend store.
-+ **pe-user-testutils]**: this library.
++ **pe-user-testutils**: this library.
 + **[pe-apptxn-core](https://github.com/evanspa/pe-apptxn-core)**: provides a
   set of functions implementing the server-side core data layer of the
   PEAppTransaction Logging Framework.
