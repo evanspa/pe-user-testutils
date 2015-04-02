@@ -1,4 +1,4 @@
-(defproject pe-user-testutils "0.0.3-SNAPSHOT"
+(defproject pe-user-testutils "0.0.3"
   :description "A Clojure library containing a set of helper functions to aid in unit testing code that depends on the functionality of the pe-user-* libraries."
   :url "https://github.com/evanspa/pe-user-testutils"
   :license {:name "MIT"
